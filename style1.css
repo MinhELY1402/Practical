@@ -1,7 +1,25 @@
 .nav-item button{
     background-color: #6157AB !important;
+    margin: 0px 24px !important;
 }
-.header div h1 {
-    margin-top: 180px !important;
-    margin-left: 60px !important;
+.col-xl-6 h1 {
+    margin-top: 90px;
+    margin-left: 60px ;
+    height: 212px ;
+    width: 616px ;
+    font-size: 64px;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+.col-xl-6 h2 {
+    margin-top: 40px;
+    margin-left: 60px ;
+    height: 68px ;
+    width: 599px ;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+.nav-item a {
+    padding: 8px 24px !important;
+    font-size: 18px !important;
 }
