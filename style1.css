@@ -3,8 +3,6 @@
     margin: 0px 24px !important;
 }
 .col-xl-6 h1 {
-    margin-top: 90px;
-    margin-left: 60px ;
     height: 212px ;
     width: 616px ;
     font-size: 64px;
@@ -12,8 +10,6 @@
     font-weight: 400;
 }
 .col-xl-6 h2 {
-    margin-top: 40px;
-    margin-left: 60px ;
     height: 68px ;
     width: 599px ;
     font-size: 20px;
@@ -22,4 +18,71 @@
 .nav-item a {
     padding: 8px 24px !important;
     font-size: 18px !important;
+}
+#page1 {
+    margin-top: 100px;
+}
+#page1_1 {
+    padding-left: 60px;
+}
+#page1_2 {
+    padding-top: 100px;
+}
+.col-xl-6 button {
+    background-color: #6157AB !important;
+    width: 158px;
+    height: 54px;
+    font-size: 18px;
+}
+.page_text {
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: #6157AB;
+    border-bottom: 1px solid #6157AB;
+    text-decoration: none;
+}
+.signup div{    
+    float: left;
+}
+.text2 {
+    width: 89px;
+    height: 17px;
+    padding-top: 140px;
+    font-size: 11px;
+    font-family: "Roboto";
+    color: #96979A;
+}
+.logo1{
+    max-width: 100%;
+    display: inline-block;
+    width: 128px;
+    height: 18px;
+}
+.logo2{
+    max-width: 100%;
+    display: inline-block;
+    width: 107px;
+    height: 107px;
+}
+.logo3{
+    max-width: 100%;
+    display: inline-block;
+    width: 114px;
+    height: 114px;
+}
+.logo4{
+    max-width: 100%;
+    display: inline-block;
+    width: 116px;
+    height: 116px;
+}
+.logo5{
+    max-width: 100%;
+    display: inline-block;
+    width: 115px;
+    height: 115px;
+}
+.page1_img{
+    padding-top: 50px;
 }
