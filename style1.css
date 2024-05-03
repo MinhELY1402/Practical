@@ -86,3 +86,29 @@
 .page1_img{
     padding-top: 50px;
 }
+/*Phan thân*/
+.main{
+    width: auto;
+    height: 2227px;
+    top: 909px;
+    background: #F5F4F2;
+}
+#m-text{
+    font-family: Roboto;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 64.8px;
+    letter-spacing: 0.675000011920929px;
+    text-align: center;
+    color:  #333333;
+    padding-top: 80px;;
+}
+.main span{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 2.319999933242798px;
+text-align: left;
+border: 1px solid #6157AB
+}
