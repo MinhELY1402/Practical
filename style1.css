@@ -108,7 +108,35 @@
 font-size: 16px;
 font-weight: 400;
 line-height: 30px;
-letter-spacing: 2.319999933242798px;
+letter-spacing: 0.5px;
 text-align: left;
-border: 1px solid #6157AB
+}
+.tab-main-1{
+    justify-content: space-between;
+    max-width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 47px;
+}
+.tab-main-1 a {
+border: 1px solid #6157AB;
+border-radius: 5px;
+padding: 12px 24px;
+background: #FFFFFF;
+}
+.main1{
+width: 1080px;
+height: 914px;
+left: 60px;
+border-radius: 19px 19px 0px 0px;
+background: #FFFFFF;
+margin-top: 55px;
+}
+.main2{
+width: 1080px;
+height: 1014px;
+top: 2122px;
+left: 60px;
+background: #E3E6F9;
 }
