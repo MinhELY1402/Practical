@@ -4,33 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="style1.css">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/menu.css' rel='stylesheet'>
+    <script src="event.js"></script>
 </head>
 <body>
-    <div class="container-fluid menu">
-        <nav class="navbar navbar-expand-xl navbar-light justify-content-end">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Agents</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Homebuyers</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Resouces</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Log In</a>
-                </li>
-                <li class="nav-item">
-                <button type="button" class="btn btn-primary">Sign Up Now</button>
-                </li>
-            </ul>
+    <!--header-->
+    <div class="sticky">
+        <nav class="header">
+            <a class="nav-link" href="#">Agents</a>
+            <a class="nav-link" href="#">Homebuyers</a>
+            <a class="nav-link" href="#">Resouces</a>
+            <a class="nav-link" href="#">Log In</a>
+            <a class="nav-button" href="#">Sign Up Now</a>
         </nav>
+        <a class="nav-link show-mb-tb" href="#">Log In</a>
+        <div class="gg-menu menu-mb-tb-1"></div>
+        <div class="header-mb-tb" style="display: none;">
+            <div class="sticky">
+                <a class="nav-link show-mb-tb" href="#">Log In</a>
+                <div class="gg-menu menu-mb-tb-2"></div>
+            </div>
+            <div class="header-mb-tb-list">
+                <a class="nav-link" href="#">Agents</a>
+                <a class="nav-link" href="#">Homebuyers</a>
+                <a class="nav-link" href="#">Resouces</a>
+                <a class="nav-link" href="#">Log In</a>
+                <a class="nav-button" href="#">Sign Up Now</a>
+            </div>
+        </div>
     </div>
-    <br>
+    <!--providing -> logo-->
+    <div class="u-container">
+        <div class="prov-section">
+            <div class="prov-content">
+                <div class="grid-1">
+                    <h1 class="prov-text-1">Providing certainty on the journey to homeownership.</h1>
+                    <p class="prov-text-2">Guarantee your home closes with cash-backed, contingency-free offers for buyers, sellers, their agents, and loan officers.</p>
+                    <div class="prov-button">
+                        <a class="nav-button prov-button-1" href="#">Sign Up Now</a>
+                        <a href="#" class="under-line ">
+                            <div class="learn-text">Learn More</div>
+                        </a>
+                    </div>
+                    <div class="background">
+                        <img class="bg-img" src="https://assets-global.website-files.com/5fe20acea37efed028d20b9a/620c4e5634bf8d77eb06fb0c_hero-v-1-5.png" 
+                alt="" style="border-style: none;">
+                    </div>
+                </div>
+                <div class="grid-2"></div>
+            </div>
+        </div>
+    </div>
     <div class="container-fluid" id="page1">
         <div class="row">
             <div class="col-xl-6" id="page1_1">
@@ -99,7 +124,7 @@
             <div class="line-gray"></div>
             <div class="main-block-3">
                 <div class="main-block-4">
-                    <div class="main-block-5">
+                          <div class="main-block-5">
                         <img src="https://assets-global.website-files.com/5fe20acea37efed028d20b9a/61f93a49b6f2a614e594f95a_%24.svg">
                     </div>
                     <div class="text-block-1">Keep Your Commission</div>
