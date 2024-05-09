@@ -168,75 +168,116 @@
     left: 0%;
     right: 0%;
 }
-#page1 {
-    margin-top: 100px;
-}
-#page1_1 {
-    padding-left: 60px;
-}
-#page1_2 {
-    padding-top: 100px;
-}
-.col-xl-6 button {
-    background-color: #6157AB !important;
-    width: 158px;
-    height: 54px;
-    font-size: 18px;
-}
-.page_text {
-    font-size: 18px;
-    margin-left: 50px;
-    margin-top: 10px;
-    color: #6157AB;
-    border-bottom: 1px solid #6157AB;
-    text-decoration: none;
-}
-.signup div{    
-    float: left;
-}
-.text2 {
-    width: 89px;
-    height: 17px;
-    padding-top: 140px;
+.prov-text-3{
+    color:#96979A;
+    margin-left: 0%;
+    margin-bottom: 16px;
     font-size: 11px;
-    font-family: "Roboto";
-    color: #96979A;
+    line-height: 16px;
+    width: 500px;
+    letter-spacing: 2px;
 }
-.logo1{
+.prov-logo{
     max-width: 100%;
-    display: inline-block;
-    width: 128px;
-    height: 18px;
-}
-.logo2{
-    max-width: 100%;
-    display: inline-block;
     width: 107px;
     height: 107px;
+    display: inline-block;
 }
-.logo3{
+.logo{
+    vertical-align: middle;
     max-width: 100%;
     display: inline-block;
-    width: 114px;
-    height: 114px;
+    border: 0;
 }
-.logo4{
-    max-width: 100%;
-    display: inline-block;
-    width: 116px;
-    height: 116px;
+@media only screen and (max-width: 991px) {
+    .prov-section{
+        padding-top: 80px;
+    }
+    .prov-content{
+        justify-content: center;
+    }
+    .grid-1{
+        margin-left: -20px;
+        padding-left: 0;
+    }
+    .prov-text-1{
+        text-align: center;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+        font-size: 56px;
+    }
+    .prov-text-2{
+        max-width: 560px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+        font-size: 20px;
+    }
+    .prov-button{
+        justify-content: center;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+    }
+    .background{
+        width: 100%;
+        padding-top: 80%;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+    .prov-text-3{
+        text-align: center;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .grid-2{
+        display: none;
+    }
 }
-.logo5{
-    max-width: 100%;
-    display: inline-block;
-    width: 115px;
-    height: 115px;
+@media only screen and (max-width: 575px){
+    .prov-section{
+        padding-top: 60px;
+    }
+    .grid-1{
+        padding-top: 40px;
+    }
+    .prov-text-1{
+        font-size: 46px;
+        max-width: none;
+        margin-left: 24px;
+        margin-right: 24px;
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+    .prov-text-2{
+        font-size: 18px;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 32px;
+    }
+    .prov-button{
+        flex-flow: wrap;
+        align-items: flex-start;
+        width: 288px;
+        margin-bottom: 30px;
+    }
+    /*Chưa xong 
+    Chưa xong 
+    Chưa xong 
+    Chưa xong 
+    Chưa xong */
 }
-.page1_img{
-    padding-top: 50px;
-}
-/*Main 1*/
-.main{
+/*Empower*/
+.empower{
     width: auto;
     height: auto;
     background: #F5F4F2;
@@ -391,4 +432,121 @@ height: auto;
         margin-bottom: 25px;
         margin-right: 25px;
     }
+}
+/*company*/
+.company{
+    background-color: #E3E6F9;
+    padding: 72px 61px 88px;
+}
+.company_heading{
+    color: #323A5B;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 54px;
+}
+.company_content{
+    justify-content: space-between;
+    margin-top: 68px;
+    display: flex;
+}
+.company_content_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 550px;
+    margin-right: 40px;
+}
+.company_content_text_1{
+    color:  #1E2224;
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 42px;
+}
+.company_content_text_2{
+    justify-content: center;
+    margin-bottom: 62px;
+    display: flex;
+}
+.company_photo{
+    border-radius: 100px;
+    width: 72px;
+    height: 72px;
+    margin-right: 14px;
+}
+.company_inf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.company_name{
+    color: #636769;
+    letter-spacing: 2px;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 16px;
+}
+.company_company{
+    color: #636769;
+    line-height: 30px;
+}
+.company_content_br{
+    background-color: #c9c9c9;
+    width: 100%;
+    height: 1px;
+    margin-top: -16px;
+    margin-bottom: 40px;
+}
+.company_content_text_3{
+    color: #363B3D;
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 18px;
+}
+.company_content_button{
+    border: 1px solid #574D9C;
+    letter-spacing: .5px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 12px 24px;
+}
+.company_content_img{
+    border-radius: 20px;
+    width: 50%;
+    height: auto;
+    max-height: 600px;
+}
+.company_br{
+    background-color: #b2a9ef;
+    width: 100%;
+    height: 1px;
+    margin-top: 68px;
+    margin-bottom: 40px;
+}
+.company_stats{
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+}
+.company_stats_number{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.stats_number{
+    font-size: 72px;
+    line-height: 104.04px;
+    color:#323A5B;
+}
+.stats_text{
+    color: #323A5B;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    align-self: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
 }
