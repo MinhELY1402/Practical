@@ -613,3 +613,160 @@
         justify-content: space-around;
     }
 }
+/*solution*/
+.solution{
+    background-color: #574D9C;
+    padding-top: 72px;
+}
+.solution_heading{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 51px;
+    font-weight: 400;
+    letter-spacing: 0.68px;
+    line-height: 64.8px;
+}
+.solution_tab{
+    background-color: #FFFFFF;
+    line-height: 30px;
+    font-size: 16px;
+    letter-spacing: 2.32px;
+    font-weight: 400;
+    border: 1px solid #6157AB;
+    text-decoration: none;
+    color: #574D9C;
+    padding: 15px 31px;
+    border-radius: 6.8px;
+    text-align: center;
+}
+.solution_content{
+    display: flex;
+    margin-top: 88px;
+}
+.solution_content--div{
+    width: 94px;
+    height: 94px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.solution_content_main{
+    background-color: #FFFFFF;
+    display: flex;
+    border-radius: 12px;
+}
+.solution_content--img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.solution--padding{
+    margin: 32px;
+    max-width: 324px;
+}
+.solution_main--img{
+    width: 324px;
+    height: 175px;
+    background: url("https://s3-alpha-sig.figma.com/img/094d/f2d8/e202abd420ef7d098d353e5b915203f9?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OxUKeNobgxXjqAGt6gB24Iym5Inp037AonyOdUA18JWmGgezVKDkRcYeA4u0W~1cgARa2Kb3ioedXUFMwrUo76Rek~StNtMRTQ3TCtOHjDBi~4RLo5ZLoAM3l0nGNx2iSllIKcopQnqxcs4Ol-DPQBnzu-hTgAvpd-Yulah4G0tUi47fuOcKflDLzysRCMXUGruJ7ggKKFB1BeUkjneFg3C0gqZ7e3qAfCX2bpH4X4I0EwaJRwJRTDgEplxeJi0tBWHuJMGDjC~FKCzRBIHMce5BYiYX-usA1jRt08Z1fBJxxDcUAqj36ngA~zNidCLsiBBodPkiLS7CCEooxPXIdA__");
+    background-size: cover;
+}
+.solution_main--div{
+    display: flex;
+    padding-top: 28px;
+}
+.solution_main--text{
+    background-color: #E7ECEE;
+}
+.solution_text{
+    display: flex;
+    padding-top: 28px;
+    align-items: center;
+    justify-content: center;
+}
+.solution--border{
+    height: 1px;
+    width: 80px;
+    background-color:  #C7C1F3;
+}
+.solution_text-1{
+    line-height: 400;
+    font-size: 11px;
+    line-height: 30px;
+    letter-spacing: 1.1px;
+    color: #363B3D;
+}
+.solution_shield{
+    margin: 26px 36px 24px 204px
+}
+.solution--border--2{
+    height: 1px;
+    width: 284px;
+    background-color:  #C7C1F3;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 29px;
+}
+.solution_text-2{
+    display: flex;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 32px;
+    justify-content: center;
+}
+.solution_text-2-1{
+    line-height: 400;
+    font-size: 11px;
+    line-height: 30px;
+    color: #363B3D;
+    width: 45px;
+    height: 60px;
+    margin-right: 49px;
+}
+.solution_text-2-2{
+    line-height: 400;
+    font-size: 16px;
+    line-height: 21.6px;
+    color: #636769;
+    width: 180px;
+    height: 44px;
+}
+.solution_text-3{
+    line-height: 400;
+    font-size: 32px;
+    line-height: 35.2px;
+    letter-spacing: 0.16px;
+    margin-top: 119px;
+}
+.solution_text-4{
+    color: #636769;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 37px;
+    margin-bottom: 66px;
+}
+.solution_text-5{
+    display: flex;
+    align-items: center;
+}
+.book{
+    margin-right: 11px;
+}
+.solution_tron{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 88px;
+    .tron_1{
+        width: 16px;
+        height: 16px;
+        border-radius: 100px;
+        border: 1px solid #FFFFFF;
+        background-color: #FFFFFF;
+        margin: 6px;
+    }
+    .tron_2{
+        width: 16px;
+        height: 16px;
+        border-radius: 100px;
+        border: 1px solid #FFFFFF;
+        margin: 6px;
+    }
+}
