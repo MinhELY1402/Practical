@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 /*Header*/
-.header{
+.header__nav{
     color: #636769;
     display: flex;
     justify-content: end;
@@ -10,7 +10,7 @@
     align-items: center;
     padding: 15px 60px;
 }
-.nav-link{
+.nav__link{
     color: #636769;
     z-index: 900;
     font-size: 18px;
@@ -20,7 +20,7 @@
     display:block;
     position: relative;
 }
-.nav-button{
+.nav__button{
     background-color: #6157AB;
     color: #FFFFFF;
     letter-spacing: .5px;
@@ -30,10 +30,10 @@
     text-decoration: none;
     font-weight: 400;
 }
-.header .nav-button{
+.nav__button--margin{
     margin-left: 20px;
 }   
-.sticky{
+.header{
     z-index: 999;
     top:0;
     position: sticky;
@@ -41,39 +41,36 @@
     display: flex;
 }
 @media screen and (min-width: 992px) {
-    .header {
+    .header__nav {
         max-width: 1440px;
         margin-left: auto;
         margin-right: auto;
     }
-    .show-mb-tb{
+    .show--mbtb{
         display: none;
     }
-    .menu-mb-tb-1{
+    .menu--mbtb{
         display: none !important;
     }
 }
 @media only screen and (max-width: 991px) {
-    .header {
+    .header__nav {
         max-width: 768px;
         margin-left: auto;
         margin-right: auto;
-    }
-    .header{
         display: none;
     }
-    .show-mb-tb{
+    .show--mbtb{
         display: block;
         margin-left: auto;
-        margin-right: 20px;
     }
-    .menu-mb-tb-1{
-        display: block !important;
+    .menu--mbtb{
+        display: block;
         margin: 22px;
     }
 }
 @media only screen and (max-width: 575px){
-    .header {
+    .header__nav {
         max-width: 480px;
         margin-left: auto;
         margin-right: auto;

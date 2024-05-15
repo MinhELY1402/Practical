@@ -1,7 +1,7 @@
 function navbar(){
-const showBtn = document.querySelector('.menu-mb-tb-1')
-const hideBtn = document.querySelector('.menu-mb-tb-2')
-const div = document.querySelector('.header-mb-tb')
+const showBtn = document.querySelector('.menu--mbtb')
+const hideBtn = document.querySelector('.menu--mbtb2')
+const div = document.querySelector('.header--mbtb')
 showBtn.addEventListener('click', () => {
   div.style.display = "block";
 })
