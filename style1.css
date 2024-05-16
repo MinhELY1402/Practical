@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 /*Header*/
-.header__nav{
+.header__menu{
     color: #636769;
     display: flex;
     justify-content: end;
@@ -41,7 +41,7 @@
     display: flex;
 }
 @media screen and (min-width: 992px) {
-    .header__nav {
+    .header__menu {
         max-width: 1440px;
         margin-left: auto;
         margin-right: auto;
@@ -54,7 +54,7 @@
     }
 }
 @media only screen and (max-width: 991px) {
-    .header__nav {
+    .header__menu {
         max-width: 768px;
         margin-left: auto;
         margin-right: auto;
@@ -70,21 +70,21 @@
     }
 }
 @media only screen and (max-width: 575px){
-    .header__nav {
+    .header__menu {
         max-width: 480px;
         margin-left: auto;
         margin-right: auto;
     }
 }
 /*providing -> logo*/
-.u-container{
+.container{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 0;
     padding-right: 0;
 }
-.prov-section{
+.prov{
     background-image: none;
     background-repeat: repeat;
     background-size: auto;
@@ -93,14 +93,13 @@
     position: relative;
     overflow: hidden;
 }
-.prov-content{
-
+.prov__flex{
     display: flex;
 }
-.grid-1{
+.prov__content{
     padding-left: 0;
 }
-.prov-text-1{
+.prov__content--h1{
     max-width: 640px;
     margin-top: 0;
     margin-bottom: 40px;
@@ -112,7 +111,7 @@
     font-family: 'Roboto';
     font-size: 64px;
 }
-.prov-text-2{
+.prov__content--p{
     color: #636769;
     letter-spacing: .0025em;
     max-width: 640px;
@@ -123,20 +122,20 @@
     font-weight: 400;
     line-height: 34px;
 }
-.prov-button{
+.prov__button{
     align-items: center;
     margin-bottom: 120px;
     margin-left: 0;
     padding-left: 0;
     display: flex;
 }
-.under-line{
+.underline{
     text-decoration: none;
     border-bottom: 1px solid #6157AB;
     padding-bottom: 4px;
     margin-left: 48px;
 }
-.learn-text{
+.learn--text{
     color: #574D9C;
     font-size: 18px;
     text-decoration: none;
@@ -150,7 +149,7 @@
     left: auto;
     right: -74px;
 }
-.bg-img{
+.background__img{
     background-position: 100% 100%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -163,7 +162,7 @@
     left: 0%;
     right: 0%;
 }
-.prov-text-3{
+.prov__content--div{
     color:#96979A;
     margin-left: 0%;
     margin-bottom: 16px;
@@ -172,7 +171,7 @@
     width: 500px;
     letter-spacing: 2px;
 }
-.prov-logo{
+.prov__logo{
     max-width: 100%;
     width: 107px;
     height: 107px;
@@ -185,16 +184,16 @@
     border: 0;
 }
 @media only screen and (max-width: 991px) {
-    .prov-section{
+    .prov{
         padding-top: 80px;
     }
-    .prov-content{
+    .prov-flex{
         justify-content: center;
     }
-    .grid-1{
+    .prov-content{
         padding-left: 0;
     }
-    .prov-text-1{
+    .prov__content--h1{
         text-align: center;
         max-width: 600px;
         margin-left: auto;
@@ -202,7 +201,7 @@
         padding-left: 0;
         font-size: 56px;
     }
-    .prov-text-2{
+    .prov__content--p{
         max-width: 560px;
         text-align: center;
         margin-left: auto;
@@ -210,7 +209,7 @@
         padding-left: 0;
         font-size: 20px;
     }
-    .prov-button{
+    .prov__button{
         justify-content: center;
         margin-bottom: 50px;
         margin-left: auto;
@@ -226,27 +225,27 @@
         right: 0;
         left: 0;
     }
-    .prov-text-3{
+    .prov__content--div{
         text-align: center;
         margin-top: 50px;
         margin-left: auto;
         margin-right: auto; 
     }
-    .grid-2{
+    .prov__none{
         display: none;
     }
 }
 @media only screen and (max-width: 575px){
-    .prov-section{
+    .prov{
         padding-top: 60px;
         padding-left: 0;
         padding-right: 0;
     }
-    .grid-1{
+    .prov-content{
         padding-top: 40px;
         width: 100%;
     }
-    .prov-text-1{
+    .prov__content--h1{
         font-size: 46px;
         max-width: none;
         padding-left: 0;
@@ -254,24 +253,24 @@
         line-height: 124%;
 
     }
-    .prov-text-2{
+    .prov__content--p{
         font-size: 18px;
         width: 100%;
         max-width: 100%;
         margin-bottom: 32px;
     }
-    .prov-button{
+    .prov__button{
         flex-direction: column;
         align-items: center;
         width: 288px;
         margin-bottom: 30px;
     }
-    .prov-button-1{
+    .prov__button-width{
         width: auto;
         margin-left: 0;
         margin-right: 0;
     }
-    .under-line{
+    .underline{
         margin-top: 13px;
         margin-left: 0;
     }
