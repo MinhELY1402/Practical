@@ -282,13 +282,13 @@
     background: #F5F4F2;
     padding-top: 72px;
 }
-.empower_block{
+.empower__block{
     flex-direction: column;
     justify-content: center;
     align-items: center;
     display: block;
 }
-.empower_heading{
+.empower__heading{
     color: #333333;
     text-align:center;
     font-size: 54px;
@@ -296,7 +296,7 @@
     margin-bottom: 0;
     letter-spacing: 0.68px;
 }
-.empower_content{
+.empower__content{
     justify-content: center;
     width: 100%;
     min-width: 100%;
@@ -306,14 +306,14 @@
     display: block;
     margin-top: 48px;
 }
-.content_tab{
+.content__tab{
     justify-content: space-between;
     max-width: 990px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
 }
-.content_tab--a{
+.content__tab--a{
     border: 1px solid #574D9C;
     color: #6157AB;
     background-color: #FFFFFF;
@@ -324,14 +324,14 @@
     font-size: 16px;
     font-weight: 500;
 }
-.buyer_agents{
+.buyeragents{
     margin-top: 55px;
     background-color: #FFFFFF;
     border-radius: 19px 19px 0 0;
     padding: 75px 74px 65px;
 
 }
-.buyer_agents_content{
+.buyeragents__content{
     display: flex;
     justify-content: flex-start;
 }
@@ -342,22 +342,22 @@
     margin-top: 85px;
     margin-bottom: 65px;
 }
-.buyer_agents_icon{
+.buyeragents__icon{
     display: flex;
     justify-content: space-between;
 }
-.buyer_img{
+.buyer__img{
     border-radius: 0 70px 70px;
     width: 50%;
     margin-right: 85px;
 }
-.buyer_content{
+.buyer__content{
     border-top: 1px solid #c9d3d9;
     width: 45%;
     max-width: 475px;
     padding-top: 32px;
 }
-.buyer_content--div{
+.buyer__content--div{
     color: #574D9C;
     letter-spacing: 2.32px;
     font-size: 16px;
@@ -365,27 +365,27 @@
     font-weight: 400;
     line-height: 24px;
 }
-.buyer_content--h3{
+.buyer__content--h3{
     margin-top: 0;
     margin-bottom: 32px;
     font-size: 40px;
     font-family: "Roboto";
     font-weight: 400;
 }
-.buyer_content--p{
+.buyer__content--p{
     color: #636769;
     font-size: 21px;
     line-height: 30px;
     font-weight: 400;
     margin-bottom: 32px;
 }
-.buyer_icon {
+.buyer__icon {
     flex-direction: column;
     align-items: center;
     width: 24%;
     display: flex;
 }
-.buyer_icon_img {
+.buyer__icon--img {
     background-color: #574d9c;
     justify-content: center;
     align-items: center;
@@ -394,7 +394,7 @@
     margin-bottom: 23px;
     display: flex;
 }
-.buyer_icon_text {
+.buyer__icon--text {
     color: #574D9C;
     text-align: center;
     letter-spacing: 2px;
@@ -404,50 +404,48 @@
     line-height: 18.9px;
 }
 @media only screen and (max-width: 991px) {
-    .content_tab{
+    .content__tab{
         flex-wrap: wrap;
         justify-content: center;
-    }
-    .content_tab--a{
-        margin-bottom: 25px;
-        margin-right: 25px;
-    }
-    .empower_content{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .content_tab{
         padding-left: 30px;
         padding-right: 30px;
     }
-    .buyer_agents{
+    .content__tab--a{
+        margin-bottom: 25px;
+        margin-right: 25px;
+    }
+    .empower__content{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .buyeragents{
         padding-top: 40px;
         padding-left: 32px;
         padding-right: 32px;
     }
-    .buyer_agents_content{
+    .buyeragents__content{
         flex-direction: column-reverse;
     }
-    .buyer_img{
+    .buyer__img{
         width: 100%;
         margin-top: 35px;
         margin-right: 0;
     }
-    .buyer_content{
+    .buyer__content{
         width: 100%;
         max-width: none;
     }
-    .buyer_content--div{
+    .buyer__content--div{
         text-align: center;
         margin-bottom: 30px;
     }
-    .buyer_content--h3{
+    .buyer__content--h3{
         text-align: center;
     }
-    .buyer_content--p{
+    .buyer__content--p{
         text-align: center;
     }
-    .buyer_button{
+    .buyer__button{
         width: auto;
         max-width: 216.891px;
         margin-left: auto;
