@@ -1,11 +1,14 @@
 function navbar(){
 const showBtn = document.querySelector('.menu--mbtb')
 const hideBtn = document.querySelector('.menu--mbtb2')
-const div = document.querySelector('.header--mbtb')
+const div1 = document.querySelector('.header--mbtb')
+const div2= document.querySelector('.mbtb--display')
 showBtn.addEventListener('click', () => {
-  div.style.display = "block";
+  div1.style.display = "block";
+  div2.style.display = "none";
 })
 hideBtn.addEventListener('click', () => {
-  div.style.display = "none";
+  div1.style.display = "none";
+  div2.style.display = "block";
 })
 }
