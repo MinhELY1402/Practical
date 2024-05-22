@@ -1,0 +1,14 @@
+.header{
+    position: sticky;
+    background-color: #FFFFFF;
+    display: flex;
+
+    &__menu{
+        color: #636769;
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        align-items: center;
+        padding: 15px 60px;
+    }
+}
