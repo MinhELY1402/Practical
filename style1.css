@@ -40,18 +40,11 @@
     background-color: #FFFFFF;
     display: flex;
 }
-@media screen and (min-width: 992px) {
-    .header__menu {
-        max-width: 1440px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .show--mbtb{
-        display: none;
-    }
-    .menu--mbtb{
-        display: none !important;
-    }
+.show--mbtb{
+    display: none;
+}
+.menu--mbtb{
+    display: none !important;
 }
 @media only screen and (max-width: 991px) {
     .header__menu {
