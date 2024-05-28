@@ -256,4 +256,186 @@
     margin-top: 13px;
     margin-left: 0;
   }
+}
+.empower {
+  width: auto;
+  height: auto;
+  background: #F5F4F2;
+  padding-top: 72px;
+}
+.empower__block {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: block;
+}
+.empower__block .empower__heading {
+  color: #333333;
+  text-align: center;
+  font-size: 54px;
+  margin-top: 0;
+  letter-spacing: 0.68px;
+}
+.empower__block .empower__content {
+  width: 100%;
+  min-width: 100%;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-top: 48px;
+}
+.empower__block .empower__content .content__tab {
+  justify-content: space-between;
+  max-width: 990px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.empower__block .empower__content .content__tab--a {
+  border: 1px solid #574D9C;
+  color: #6157AB;
+  background-color: #FFFFFF;
+  padding: 14px 24px;
+  letter-spacing: 2.32px;
+  text-decoration: none;
+  border-radius: 6.8px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.buyeragents {
+  margin-top: 55px;
+  background-color: #FFFFFF;
+  border-radius: 19px 19px 0 0;
+  padding: 75px 74px 65px;
+}
+.buyeragents__content {
+  display: flex;
+  justify-content: flex-start;
+}
+.buyeragents__icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.line-gray {
+  background-color: #c9d3d9;
+  width: 100%;
+  height: 1px;
+  margin-top: 85px;
+  margin-bottom: 65px;
+}
+
+.buyer__img {
+  border-radius: 0 70px 70px;
+  width: 50%;
+  margin-right: 85px;
+}
+
+.buyer__content {
+  border-top: 1px solid #c9d3d9;
+  width: 45%;
+  max-width: 475px;
+  padding-top: 32px;
+}
+.buyer__content--div {
+  color: #574D9C;
+  letter-spacing: 2.32px;
+  font-size: 16px;
+  margin-bottom: 25%;
+  font-weight: 400;
+  line-height: 24px;
+}
+.buyer__content--h3 {
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-size: 40px;
+  font-weight: 400;
+}
+.buyer__content--p {
+  color: #636769;
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.buyer__icon {
+  flex-direction: column;
+  align-items: center;
+  width: 24%;
+  display: flex;
+}
+.buyer__icon--img {
+  background-color: #574d9c;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  margin-bottom: 23px;
+  display: flex;
+}
+.buyer__icon--text {
+  color: #574D9C;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18.9px;
+}
+
+@media only screen and (max-width: 991px) {
+  .content__tab {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .content__tab--a {
+    margin-bottom: 25px;
+    margin-right: 25px;
+  }
+  .empower__content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .buyeragents {
+    padding-top: 40px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .buyeragents__content {
+    flex-direction: column-reverse;
+  }
+  .buyer__img {
+    width: 100%;
+    margin-top: 35px;
+    margin-right: 0;
+  }
+  .buyer__content {
+    width: 100%;
+    max-width: none;
+  }
+  .buyer__content--div {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .buyer__content--h3 {
+    text-align: center;
+  }
+  .buyer__content--p {
+    text-align: center;
+  }
+  .buyer__button {
+    width: auto;
+    max-width: 216.891px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+  }
+  .line-gray {
+    margin-top: 27px;
+    margin-bottom: 45px;
+  }
 }/*# sourceMappingURL=style.css.map */
