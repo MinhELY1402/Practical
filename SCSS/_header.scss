@@ -1,70 +1,91 @@
-.header{
+* {
+    box-sizing: border-box;
+  }
+  
+  // Header
+  .header {
+    z-index: 999;
+    top: 0;
     position: sticky;
     background-color: #FFFFFF;
     display: flex;
-
-    &__menu{
-        color: #636769;
-        display: flex;
-        justify-content: end;
-        width: 100%;
-        align-items: center;
-        padding: 15px 60px;
-    }
-}
-.nav__link{
-    color: #636769;
-    font-size: 18px;
-    line-height: 30px;
-    text-decoration: none;
-    padding: 8px 24px; 
-    display:block;
-    position: relative;
-}
-.nav__button{
-    background-color: #6157AB;
-    color: #FFFFFF;
-    letter-spacing: .5px;
-    border-radius: 5px;
-    padding: 12px 24px;
-    font-size: 18px;
-    text-decoration: none;
-    font-weight: 400;
-
-    &--margin{
-        margin-left: 20px;
-    }  
-}
-.show--mbtb{
-    display: none;
-}
-.menu--mbtb{
-    display: none !important;
-}
-@media only screen and (max-width: 991px) {
-    .header__menu {
+  
+    &__menu {
+      color: #636769;
+      display: flex;
+      justify-content: end;
+      width: 100%;
+      align-items: center;
+      padding: 15px 60px;
+  
+      @media only screen and (max-width: 991px) {
         max-width: 768px;
         margin-left: auto;
         margin-right: auto;
         display: none;
-    }
-    .show--mbtb{
-        display: block;
-        margin-left: auto;
-    }
-    .menu--mbtb{
-        display: block;
-        margin: 22px;
-    }
-    .menu--mbtb2{
-        display: block;
-        margin: 22px;
-    }
-}
-@media only screen and (max-width: 575px){
-    .header__menu {
+      }
+  
+      @media only screen and (max-width: 575px) {
         max-width: 480px;
         margin-left: auto;
         margin-right: auto;
+      }
     }
-}
+  
+    .show--mbtb {
+      display: none;
+  
+      @media only screen and (max-width: 991px) {
+        display: block;
+        margin-left: auto;
+      }
+    }
+  
+    .menu--mbtb {
+      display: none !important;
+  
+      @media only screen and (max-width: 991px) {
+        display: block;
+        margin: 22px;
+      }
+    }
+  
+    .menu--mbtb2 {
+      display: none;
+  
+      @media only screen and (max-width: 991px) {
+        display: block;
+        margin: 22px;
+      }
+    }
+  }
+  
+  // Navigation Links
+  .nav {
+    &__link {
+      color: #636769;
+      z-index: 900;
+      font-size: 18px;
+      line-height: 30px;
+      text-decoration: none;
+      padding: 8px 24px;
+      display: block;
+      position: relative;
+    }
+  
+    &__button {
+      background-color: #6157AB;
+      color: #FFFFFF;
+      letter-spacing: .5px;
+      border-radius: 5px;
+      padding: 12px 24px;
+      font-size: 18px;
+      text-decoration: none;
+      font-weight: 400;
+  
+      &--margin {
+        margin-left: 20px;
+      }
+    }
+  }
+  
